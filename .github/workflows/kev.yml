@@ -12,5 +12,5 @@ jobs:
       - name: 'KEV Policy'
         uses: advanced-security/dependabot-kev-action@v0
         env:
-            #GITHUB_TOKEN: ${{ secrets.DEPENDABOT_KEV_GITHUB_TOKEN }}
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.DEPENDABOT_KEV_GITHUB_TOKEN }}
+            #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
